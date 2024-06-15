@@ -4,8 +4,12 @@
 @tailwind utilities;
 
 
-
-
+html{
+  @apply scroll-smooth;
+}
 body{
   @apply bg-bgColor text-textColor w-full overflow-x-hidden font-poppins;
+}
+.afterTitle{
+  @apply after:content-normal after:h-[1px] after:w-full after:bg-titleColor/20 after:block after:relative after:ml-6;
 }

@@ -25,9 +25,9 @@ export const MobileSidebar = ({ isSidebarOpen, toggle }) => {
                 <IoClose className="text-2xl mb-4 cursor-pointer size-8 absolute top-8 right-6 hover:text-primaryColor" onClick={toggle} />
 
                 <ul className="flex flex-col gap-6 font-fira text-sm">
-                    <li><a href="#sobre" className="hover:text-primaryColor">Sobre</a></li>
-                    <li><a href="#experiencia" className="hover:text-primaryColor">Experiência</a></li>
-                    <li><a href="#projetos" className="hover:text-primaryColor">Projetos</a></li>
+                    <li><a href="#sobre" className="hover:text-primaryColor" onClick={toggle}>Sobre</a></li>
+                    <li><a href="#experiencia" className="hover:text-primaryColor" onClick={toggle}>Experiência</a></li>
+                    <li><a href="#projetos" className="hover:text-primaryColor" onClick={toggle}>Projetos</a></li>
                 </ul>
             </div>
         </div>

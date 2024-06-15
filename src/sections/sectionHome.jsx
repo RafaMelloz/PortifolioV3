@@ -1,5 +1,3 @@
-import { FaRocket } from "react-icons/fa"
-
 export const SectionHome = () =>{
     return(
         <section className="md:ml-28 h-fullScreen flex items-center">

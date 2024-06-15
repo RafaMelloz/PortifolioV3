@@ -18,7 +18,7 @@ export const Header = () =>{
 
                 <nav>
                     <ul className="hidden md:flex font-fira text-sm gap-10">
-                        <li className="hover:text-primaryColor"><a href="">Sobre</a></li>
+                        <li className="hover:text-primaryColor"><a href="#sobre">Sobre</a></li>
                         <li className="hover:text-primaryColor"><a href="">Experiência</a></li>
                         <li className="hover:text-primaryColor"><a href="">Projetos</a></li>
                     </ul>
