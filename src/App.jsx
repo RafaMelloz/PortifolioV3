@@ -1,6 +1,7 @@
 import { Aside } from "./components/aside";
 import { Header } from "./components/header";
 import { SectionAbout } from "./sections/sectionAbout";
+import { SectionExperience } from "./sections/sectionExperience";
 import { SectionHome } from "./sections/sectionHome";
 
 export function App() {
@@ -11,8 +12,9 @@ export function App() {
       <main className="container  px-3 md:px-8">
         <Aside/>
         <SectionHome/>
-        <SectionAbout/>
-        
+        <SectionAbout/>        
+        <SectionExperience />
+
       </main>
 
       
