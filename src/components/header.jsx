@@ -20,7 +20,7 @@ export const Header = () =>{
                     <ul className="hidden md:flex font-fira text-sm gap-10">
                         <li className="hover:text-primaryColor"><a href="#sobre">Sobre</a></li>
                         <li className="hover:text-primaryColor"><a href="#experiencia">Experiência</a></li>
-                        <li className="hover:text-primaryColor"><a href="*projetos">Projetos</a></li>
+                        <li className="hover:text-primaryColor"><a href="#projetos">Projetos</a></li>
                     </ul>
 
                     <IoMenu className="block md:hidden size-8" onClick={toggleSidebar} /> 

@@ -1,6 +1,7 @@
 export const SectionHome = () =>{
+    
     return(
-        <section className="md:ml-28 h-fullScreen flex items-center">
+        <section className="md:ml-28 w-full h-fullScreen flex items-center">
            <div className="flex flex-col gap-2">
                 <h3 className="font-fira text-primaryColor">Ola, me chamo</h3>
                 <h1 className="text-titleColor font-extrabold tracking-wide text-7xl">Rafael Melo</h1>

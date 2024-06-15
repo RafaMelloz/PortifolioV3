@@ -8,6 +8,7 @@ export default {
     extend: {
       colors:{
         bgColor: '#010f23',
+        bgCards: '#112240',
         textColor: '#b1bcd5',
         titleColor: '#ccd6f6',
         primaryColor: '#57cbff'
@@ -20,6 +21,9 @@ export default {
         fira: ['Fira Code', 'monospace'],
         audioWide: ['Audiowide, sans-serif']
       },
+      gridTemplateColumns:{
+        gridResponsive: 'repeat(auto-fill, minmax(323px, 1fr))'
+      }
     },
   },
   plugins: [],
