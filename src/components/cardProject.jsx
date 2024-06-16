@@ -23,7 +23,7 @@ export const CardProject = ({res}) =>{
 
                 <div className="mt-5">
                     <h3 className="text-titleColor font-bold text-xl mb-1 transition-all duration-300 group-hover:text-primaryColor">
-                        <a href={linkWebSite}>{nameProject}</a>
+                        <a href={linkWebSite ? linkWebSite : linkGitHub}>{nameProject}</a>
                     </h3>
                     <p className="text-sm">{description}</p>
                 </div>

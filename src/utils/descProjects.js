@@ -25,6 +25,7 @@ export const Projects = [
             { name: 'Axios' },
         ]
     },
+    
     {
         id: 3,
         nameProject: 'GitSearch',
@@ -35,4 +36,49 @@ export const Projects = [
             { name: 'React' },
         ]
     },
+    {
+        id: 4,
+        nameProject: 'Pokedex',
+        linkWebSite: 'https://pokedex-rafa.vercel.app',
+        linkGitHub: 'https://github.com/RafaMelloz/angular-pokedexApi',
+        description: `Uma pagina onde é possível  pesquisar seus Pokemon's favoritos e velos detalhadamente, feito usando Angular e FetchhApi`,
+        technologies: [
+            { name: 'Angular' },
+            { name: 'PokeApi' },
+
+        ]
+    },
+    {
+        id: 5,
+        nameProject: 'AppTask',
+        linkWebSite: 'https://pokedex-rafa.vercel.app',
+        linkGitHub: 'https://github.com/RafaMelloz/angular-TaskApp',
+        description: `"App" onde é possível adicionar, visualizar, editar, remover tarefas, tudo isso salvando os valores no localStorage, ótimo para se organizar`,
+        technologies: [
+            { name: 'Angular' },
+        ]
+    },
+    {
+        id: 6,
+        nameProject: 'KidsAcademy',
+        linkGitHub: 'https://github.com/RafaMelloz/kidsAcademy',
+        description: `Projeto full-stack que se baseia em uma plataforma de cursos de TI para crianças, com sistema de login e cadastro de usuarios, cursos etc...`,
+        technologies: [
+            { name: 'JavaScript' },
+            { name: 'PHP' },
+            { name: 'MySql' },
+
+        ]
+    },
+    {
+        id: 7,
+        nameProject: 'VTEX - landing page',
+        linkWebSite: 'https://teste-vaga-front-end-jr.vercel.app',
+        linkGitHub: 'https://github.com/RafaMelloz/react-Loja',
+        description: `Simples landing page com um consumo de uma fake Api para listagem de produtos`,
+        technologies: [
+            { name: 'React' },
+        ]
+    },
+    
 ]

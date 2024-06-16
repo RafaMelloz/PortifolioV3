@@ -12,7 +12,7 @@ export const SectionHome = () =>{
                     com inovação 
                 </p>
 
-                <a  href="" 
+                <a  href="#projetos" 
                     className="border border-primaryColor text-primaryColor rounded-lg text-center max-w-52 py-4 mt-8 transition-colors duration-200 hover:bg-primaryColor hover:text-white"
                 >
                     Veja meus projetos!
