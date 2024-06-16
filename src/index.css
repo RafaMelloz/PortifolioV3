@@ -13,3 +13,18 @@ body{
 .afterTitle{
   @apply after:content-normal after:h-[1px] after:w-full after:bg-titleColor/20 after:block after:relative after:ml-6;
 }
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #52525281; 
+    border-radius: 6px;
+    border: 3px solid #010f23; 
+}
+
