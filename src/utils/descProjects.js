@@ -51,7 +51,7 @@ export const Projects = [
     {
         id: 5,
         nameProject: 'AppTask',
-        linkWebSite: 'https://pokedex-rafa.vercel.app',
+        linkWebSite: 'https://task-appr.vercel.app',
         linkGitHub: 'https://github.com/RafaMelloz/angular-TaskApp',
         description: `"App" onde é possível adicionar, visualizar, editar, remover tarefas, tudo isso salvando os valores no localStorage, ótimo para se organizar`,
         technologies: [
