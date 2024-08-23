@@ -16,14 +16,14 @@ export const CardProject = ({res}) =>{
                 <div className="flex justify-between items-center gap-3">
                     <LuRocket className="size-8 text-primaryColor" />
                     <div className="flex gap-2">
-                        {linkGitHub && <a href={linkGitHub} className="hover:text-primaryColor"><LuGithub className="size-5" /></a>}
-                        {linkWebSite && <a href={linkWebSite} className="hover:text-primaryColor"><LuExternalLink className="size-5" /></a>}
+                        {linkGitHub && <a href={linkGitHub} target="_blank"  className="hover:text-primaryColor"><LuGithub className="size-5" /></a>}
+                        {linkWebSite && <a href={linkWebSite} target="_blank" className="hover:text-primaryColor"><LuExternalLink className="size-5" /></a>}
                     </div>
                 </div>
 
                 <div className="mt-5">
                     <h3 className="text-titleColor font-bold text-xl mb-1 transition-all duration-300 group-hover:text-primaryColor">
-                        <a href={linkWebSite ? linkWebSite : linkGitHub}>{nameProject}</a>
+                        <a target="_blank" href={linkWebSite ? linkWebSite : linkGitHub}>{nameProject}</a>
                     </h3>
                     <p className="text-sm">{description}</p>
                 </div>

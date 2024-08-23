@@ -1,6 +1,30 @@
 export const Projects = [
     {
-        id: 1,
+        id: 9,
+        nameProject: 'Board+',
+        linkWebSite: 'https://boardplus.vercel.app',
+        linkGitHub: 'https://github.com/RafaMelloz/board-',
+        description: `Projeto full-stack utilizando Next.js (pagesRouter) e Firebase, com sistema de login pelo google, ao entrar é possível criar tarefas e compartilhar com outros usuários caso a talera seja publica`,
+        technologies: [
+            { name: 'Next' },
+            { name: 'TailWind' },
+            { name: 'Firebase' },
+            { name: 'React hot toast' },
+        ]
+    },
+    {
+        id: 8,
+        nameProject: 'Daily Games',
+        linkWebSite: 'https://github.com/RafaMelloz/dailyGames',
+        linkGitHub: 'https://github.com/RafaMelloz/dailyGames',
+        description: `Projeto Front-end com Next.js (appRouter) que consome uma pequena API, exibindo alguns jogos lançados`,
+        technologies: [
+            { name: 'Next' },
+            { name: 'TailWind' },
+        ]
+    },
+    {
+        id: 7,
         nameProject:'Catalogo Digital',
         linkWebSite:'https://catalogo-digital.vercel.app',
         linkGitHub:'https://github.com/RafaMelloz/catalogoDigital',
@@ -15,7 +39,7 @@ export const Projects = [
         ]
     },
     {
-        id: 2,
+        id: 5,
         nameProject: 'Calendário Gamer',
         linkWebSite: 'https://game-calendarf.vercel.app',
         linkGitHub: 'https://github.com/RafaMelloz/gameCalendar',
@@ -27,7 +51,7 @@ export const Projects = [
     },
     
     {
-        id: 3,
+        id: 5,
         nameProject: 'GitSearch',
         linkWebSite: 'https://rafa-git-search.vercel.app',
         linkGitHub: 'https://github.com/RafaMelloz/gitSearch',
@@ -49,7 +73,7 @@ export const Projects = [
         ]
     },
     {
-        id: 5,
+        id: 3,
         nameProject: 'AppTask',
         linkWebSite: 'https://task-appr.vercel.app',
         linkGitHub: 'https://github.com/RafaMelloz/angular-TaskApp',
@@ -59,7 +83,7 @@ export const Projects = [
         ]
     },
     {
-        id: 6,
+        id: 2,
         nameProject: 'KidsAcademy',
         linkGitHub: 'https://github.com/RafaMelloz/kidsAcademy',
         description: `Projeto full-stack que se baseia em uma plataforma de cursos de TI para crianças, com sistema de login e cadastro de usuarios, cursos etc...`,
@@ -71,7 +95,7 @@ export const Projects = [
         ]
     },
     {
-        id: 7,
+        id: 1,
         nameProject: 'VTEX - landing page',
         linkWebSite: 'https://teste-vaga-front-end-jr.vercel.app',
         linkGitHub: 'https://github.com/RafaMelloz/react-Loja',
