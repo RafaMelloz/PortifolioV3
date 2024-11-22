@@ -29,7 +29,7 @@ export const FeaturedProjects = ({project}) => {
             </article>
 
 
-            <article className="w-full relative block md:hidden object-cover bg-contain mb-10" style={{ backgroundImage: `url(${project.imgName === "prontue" ? prontue : spotify})`}}>
+            <article className="w-full relative block md:hidden object-cover mb-10 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${project.imgName === "prontue" ? prontue : spotify})`}}>
                 <div className="bg-bgColor opacity-90 w-full h-full p-10 flex flex-col justify-center items-center gap-6 hover:opacity-75 transition-all duration-300">
                     <a href={project.linkWebSite} className="text-titleColor text-2xl font-bold hover:text-primaryColor w-fit">{project.name}</a>
 
