@@ -15,7 +15,7 @@ export const Projects = [
     {
         id: 8,
         nameProject: 'Daily Games',
-        linkWebSite: 'https://github.com/RafaMelloz/dailyGames',
+        linkWebSite: 'https://daily-games-rafa.vercel.app',
         linkGitHub: 'https://github.com/RafaMelloz/dailyGames',
         description: `Projeto Front-end com Next.js (appRouter) que consome uma pequena API, exibindo alguns jogos lançados`,
         technologies: [
