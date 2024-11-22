@@ -111,7 +111,7 @@ export const StarProjects = [
     {
         id: "starProject1",
         name: 'Prontu e Ponto',
-        linkWebSite: 'https://pruntue.com',
+        linkWebSite: 'https://prontue.com',
         imgName: 'prontue',
         description: `Plataforma para otimizar o atendimento de Quiropraxia, permitindo criar e armazenar prontuários, agilizar o processo com autoavaliação e agenda.`,
         technologies: [
