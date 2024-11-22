@@ -28,7 +28,7 @@ export const Projects = [
         nameProject:'Catalogo Digital',
         linkWebSite:'https://catalogo-digital.vercel.app',
         linkGitHub:'https://github.com/RafaMelloz/catalogoDigital',
-        description:`Projeto full-stack com React e Node para uma loja virtual/catálogo. Permite visualizar produtos detalhadamente, ajustar quantidades no carrinho e baixar o resumo do pedido em Excel`,
+        description:`Projeto full-stack com React e Node para uma loja virtual/catálogo. Permite visualizar produtos detalhadamente, ajustar quantidades no carrinho e baixar o resumo do pedido em Excel. (API off temporariamente)`,
         technologies: [
             { name: 'React' },
             { name: 'Axios' },
@@ -105,4 +105,36 @@ export const Projects = [
         ]
     },
     
+]
+
+export const StarProjects = [
+    {
+        id: "starProject1",
+        name: 'Prontu e Ponto',
+        linkWebSite: 'https://pruntue.com',
+        imgName: 'prontue',
+        description: `Plataforma para otimizar o atendimento de Quiropraxia, permitindo criar e armazenar prontuários, agilizar o processo com autoavaliação e agenda.`,
+        technologies: [
+            { name: 'NextJs' },
+            { name: 'Prisma' },
+            { name: 'Next Auth' },
+            { name: 'Stripe' },
+            { name: 'Tailwind' },
+        ],
+        position: 'left'
+    },
+    // {
+    //     id: "starProject2",
+    //     name: 'Spotify Perfil',
+    //     linkWebSite: 'https://spotifyprofiler.vercel.app',
+    //     imgName: 'spotify',
+    //     description: `Plataforma para otimizar o atendimento de Quiropraxia, permitindo criar e armazenar prontuários, agilizar o processo com autoavaliação e agenda.`,
+    //     technologies: [
+    //         { name: 'NextJs' },
+    //         { name: 'Next Auth' },
+    //         { name: 'Spotify API' },
+    //         { name: 'Tailwind' },
+    //     ],
+    //     position: 'right'
+    // }
 ]

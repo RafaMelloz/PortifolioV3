@@ -5,6 +5,7 @@ import { SectionHome } from "./sections/sectionHome";
 import { SectionAbout } from "./sections/sectionAbout";
 import { SectionExperience } from "./sections/sectionExperience";
 import { SectionProjects } from "./sections/sectionProjects";
+import { SectionBuilds } from "./sections/sectionBuilds";
 
 export function App() {
 
@@ -16,6 +17,7 @@ export function App() {
         <SectionHome/>
         <SectionAbout/>        
         <SectionExperience/>
+        <SectionBuilds />
         <SectionProjects/>
       </main>
       <Footer/>

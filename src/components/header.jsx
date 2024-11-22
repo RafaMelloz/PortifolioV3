@@ -12,7 +12,7 @@ export const Header = () =>{
     };
 
     return(
-        <header className={`${scrollPosition === 0 ? 'h-24' : 'bg-bgColor/85 backdrop-blur h-16 shadow-[0px_00px_20px_-10px_#2db7f77b]'} transition-all duration-500 sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"}`}>
+        <header className={`${scrollPosition === 0 ? 'h-24' : 'bg-bgColor/85 backdrop-blur z-50 h-16 shadow-[0px_00px_20px_-10px_#2db7f77b]'} transition-all duration-500 sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"}`}>
             <div className="container h-full m-auto flex justify-between items-center px-3 md:px-8">
                 <h3 className="font-audioWide text-3xl pointer-events-none">R</h3>
 

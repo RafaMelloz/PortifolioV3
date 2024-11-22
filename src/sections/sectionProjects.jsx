@@ -15,7 +15,7 @@ export const SectionProjects = () => {
 
     return (
         <section className="min-h-screen flex flex-col justify-center items-center md:px-10 lg:px-0" id="projetos">
-            <h2 className="text-titleColor text-2xl font-bold text-center whitespace-nowrap mb-12">Projetos</h2>
+            <h2 className="text-titleColor text-3xl font-bold text-center whitespace-nowrap mb-12">Outros projetos</h2>
 
             <div className="grid grid-cols-gridResponsive gap-4 justify-items-center w-full max-w-screen-lg">
                 {Projects.slice(0, visibleProjects).map((project) => (

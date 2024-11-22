@@ -3,7 +3,7 @@ export const SectionAbout = () =>{
         <section className="md:ml-28 h-screen flex flex-col md:flex-row items-center justify-center gap-5  md:px-0 lg:px-28 md:gap-20" id="sobre">
 
             <div className="w-full">
-                <h2 className="text-titleColor text-2xl font-bold flex items-center whitespace-nowrap afterTitle mb-10">Sobre Mim</h2>
+                <h2 className="text-titleColor text-3xl font-bold flex items-center whitespace-nowrap afterTitle mb-10">Sobre Mim</h2>
 
                 <p className="mb-3 text-base text-justify">
                     Formado em TI pela <a className="text-primaryColor font-semibold" href="https://fieb.edu.br">FIEB</a>, comecei a me aventurar no mundo da programação em 2020. Atualmente, estou ADS

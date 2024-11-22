@@ -29,7 +29,7 @@ export const CardProject = ({res}) =>{
                 </div>
             </div>
 
-            <ul className="flex flex-wrap gap-1">
+            <ul className="flex flex-wrap gap-1 font-fira">
                 {technologies.map((tec, i) => (
                     <li key={i} id={i + nameProject} className="text-xs text-white/90 bg-primaryColor/40 px-2 py-0.5 rounded">{tec.name}</li>
                 ))}
