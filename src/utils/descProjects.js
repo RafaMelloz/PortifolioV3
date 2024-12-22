@@ -1,5 +1,19 @@
 export const Projects = [
     {
+        id: 10,
+        nameProject: 'LitLine',
+        linkWebSite: 'https://litline.vercel.app',
+        linkGitHub: 'https://github.com/RafaMelloz/litLine',
+        description: `Projeto full-stack utilizando Next.js e prisma, com sistema de login pelo github, simulando um sistema de aluguel de livros online`,
+        technologies: [
+            { name: 'Next' },
+            { name: 'TailWind' },
+            { name: 'Prisma' },
+            { name: 'Shadcn ui' },
+            { name: 'Next Auth' },
+        ]
+    },
+    {
         id: 9,
         nameProject: 'Board+',
         linkWebSite: 'https://boardplus.vercel.app',
