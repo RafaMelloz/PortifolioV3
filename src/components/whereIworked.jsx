@@ -2,7 +2,7 @@ import { useState } from "react"
 import { works } from "../utils/descWorks";
 
 export const WhereIWorked = () =>{
-    const [idWork, setIdWork] = useState(0);
+    const [idWork, setIdWork] = useState(1);
 
     function toggleWork(id) {
         setIdWork(id)

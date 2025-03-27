@@ -13,5 +13,16 @@ export const works = [
             { id: 5, content: 'Resolução de erros reportados por usuários e implementação de melhorias no sistema' },
         ]
     },
-
+    {
+        id: 1,
+        companyName: 'Confitec',
+        workingTime: 'Janeiro 2025 até o momento',
+        companyUrl: 'https://confitec.com.br/',
+        role: 'Analista de sistemas Trainee',
+        responsibilities: [
+            { id: 1, content: 'Desenvolvimento com .net e entity framework' },
+            { id: 2, content: 'Criação de telas/layouts com Angular' },
+            { id: 4, content: 'Manutenção de Querys' },
+        ]
+    },  
 ] 
